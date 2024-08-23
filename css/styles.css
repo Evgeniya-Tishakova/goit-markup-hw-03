@@ -135,10 +135,7 @@ background-color: #2e2f42;
 width: 1440px;
 height: 600px;
 text-align: center;
-}
-
-.main-page-container {
-     padding: 188px 472px;
+padding: 188px 472px;
 }
 
 .page-title {
@@ -158,8 +155,6 @@ button {
     border-radius: 4px;
     padding: 16px 32px;
     margin-top: 48px;
-    width: 169px;
-    height: 56px;
     text-align: center;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4D5AE5;
