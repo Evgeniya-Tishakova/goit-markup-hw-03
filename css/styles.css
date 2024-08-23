@@ -47,19 +47,21 @@ nav {
 }
 
 .logo {
+    font-family: "Roboto", "Raleway", sans-serif;
     margin-top: 24px;
     margin-left: 156px;;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4D5AE5 ;
     text-decoration: none;
 }
 
 .logo span {
-    color: #4D5AE5 ;
+    
+    color: #2e2f42;
 }
 
 .header ul li {
@@ -82,7 +84,7 @@ nav {
 
 .page-nav .link:hover,
 .page-nav .link:active {
- color:  #4d5ae5;
+ color:  #404BBF;
 }
 
 .page-nav .link, .page-address .email, .page-address .phone{
@@ -328,10 +330,11 @@ text-align: left;
 }
 
 .footer {
+    
     width: 1440px;
 height: 312px;
 background-color: #2e2f42;
-padding-top: 120px;
+padding-top: 100px;
 }
 
 .footer-container {
@@ -364,6 +367,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 text-align: left;
+padding-top: 16px;
 
 
 }
