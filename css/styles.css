@@ -133,6 +133,7 @@ nav {
     color: #434455;
 }
 .page-address .address-item:hover,
+.page-address .address-item:focus,
 .page-address .address-item:active {
     color: #404bbf;
 }
