@@ -85,16 +85,9 @@ nav {
     gap: 40px;
 }
 
-.page-nav .link:hover,
-.page-nav .link:active,
-.page-nav .link:focus {
- color:  #404bbf;
-}
-.page-nav .link {
-    color: #434455
-}
 
-.page-nav .link, .page-address .email, .page-address .phone{
+
+.page-nav .link, .page-address .address-item {
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -102,6 +95,16 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.page-nav .link {
+    color: #434455
+}
+
+.page-nav .link:hover,
+.page-nav .link:active,
+.page-nav .link:focus {
+ color:  #404bbf;
 }
 
 .page-nav li:first-child::after {
@@ -127,12 +130,7 @@ nav {
 
 }
  
-.page-address .email:hover {
-    color: #9747FF;
-}
-
-
-.page-address .phone:hover {
+.page-address .address-item:hover {
     color: #9747FF;
 }
 
