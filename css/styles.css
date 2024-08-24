@@ -59,8 +59,7 @@ nav {
     text-decoration: none;
 }
 
-.logo span {
-    
+.logo .color-logo {
     color: #2e2f42;
 }
 
@@ -70,6 +69,10 @@ nav {
 
 .page-nav {
     margin-left: 76px;
+}
+
+.address-wrapper {
+    font-style: normal
 }
 
 .page-nav, .page-address {
@@ -83,8 +86,12 @@ nav {
 }
 
 .page-nav .link:hover,
-.page-nav .link:active {
- color:  #404BBF;
+.page-nav .link:active,
+.page-nav .link:focus {
+ color:  #404bbf;
+}
+.page-nav .link {
+    color: #434455
 }
 
 .page-nav .link, .page-address .email, .page-address .phone{
@@ -345,7 +352,6 @@ text-align: left;
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
-    width: 115px;
     height: 24px;
     font-weight: 700;
     font-size: 18px;
@@ -357,7 +363,7 @@ text-align: left;
     margin-bottom: 16px;
 }
 
-.footer-logo span {
+.footer-logo .color-logo {
     color: #f4f4fd;
 }
 
