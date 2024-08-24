@@ -98,7 +98,7 @@ nav {
 }
 
 .page-nav .link {
-    color: #434455
+    color: #2e2f42
 }
 
 .page-nav .link:hover,
@@ -127,11 +127,14 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-
 }
  
-.page-address .address-item:hover {
-    color: #9747FF;
+.page-address .address-item {
+    color: #434455;
+}
+.page-address .address-item:hover,
+.page-address .address-item:active {
+    color: #404bbf;
 }
 
 
