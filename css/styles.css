@@ -72,6 +72,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
  background-color: #FFFFFF;
  display: flex;
+ align-items: center;
 }
 
 
@@ -162,7 +163,11 @@ margin-bottom: 48px;
    padding-bottom: 16px;
    padding-left: 32px;
    padding-right: 32px;
-   
+   display: block;
+   min-width: 169px;
+   height: 56px;
+    border: none;
+    border-radius: 4px;
  }
 
  .hero-btn:hover,
@@ -187,14 +192,15 @@ margin-bottom: 48px;
 
 .hidden-list {
    display: flex;
+   gap: 24px;
    
 }
 
 
 .hidden-item,
 .team-item {
- width: calc((100% - 72px) /4);
- margin-right: 24px;
+ flex-basis: calc((100% - 72px) /4);
+
 }
     
 
@@ -331,6 +337,11 @@ background-color: #2E2F42;
 .footer-logo {
    margin-bottom: 16px;
 }
+
+.footer-logo {
+display: inline-block;
+}
+ 
 
 .footer-logo .logo-span {
    color: #F4F4FD;
