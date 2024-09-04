@@ -132,7 +132,7 @@ color: #434455;
     background-color: #2E2F42;
  }
 
-.section hero {
+ .hero .container {
    padding-top:188px;
    padding-bottom:188px;
 }
@@ -301,6 +301,7 @@ margin-bottom: 32px;
    
 .addition {
    padding-top: 32px;
+   padding-bottom: 32px;
    padding-left: 16px;
    border: 1px solid #E7E9FC;
    border-top: none;
