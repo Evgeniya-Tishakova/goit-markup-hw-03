@@ -101,12 +101,15 @@ letter-spacing: 0.02em;
 
 
 .nav-link {
-    color: #2E2F42;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+   color: #2E2F42;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+   padding-top: 24px;
+   padding-bottom: 24px;
+
 }
 
  .address {
@@ -131,15 +134,17 @@ color: #434455;
  /* hero */
 
  .hero {
-    background-color: #2E2F42;
+   background-color: #2E2F42;
+   padding-top: 188px;
+   padding-bottom: 188px;
  }
 
 
  .hero .container {
-   padding-top: 188px;
-   padding-bottom: 188px;
-   padding-left: 472px;
-   padding-right: 472px;
+   padding-top: 68px;
+   padding-bottom: 68px;
+   padding-left: 331px;
+   padding-right: 331px;
    text-align: center;
  }
 
@@ -172,6 +177,7 @@ max-width: 496px;
    height: 56px;
     border: none;
     border-radius: 4px;
+    margin: auto;
  }
 
  .hero-btn:hover,
@@ -284,6 +290,9 @@ margin-bottom: 32px;
 
 /* portfolio */
 
+.portfolio .container {
+   padding: 32px 16px;
+}
 
 .portfolio-list {
    display: flex;
@@ -298,9 +307,6 @@ margin-bottom: 32px;
 }
    
 .addition {
-   padding-top: 32px;
-   padding-bottom: 32px;
-   padding-left: 16px;
    border: 1px solid #E7E9FC;
    border-top: none;
 }
