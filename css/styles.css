@@ -71,8 +71,7 @@ letter-spacing: 0.02em;
  background-color: #FFFFFF;
  display: flex;
  align-items: center;
- padding-top: 24px;
- padding-bottom: 24px;
+
 }
 
 
@@ -89,6 +88,8 @@ letter-spacing: 0.02em;
 
  .header-logo {
    margin-right: 76px;
+   padding-top: 24px;
+   padding-bottom: 24px;
  }
 
 
@@ -132,16 +133,12 @@ color: #434455;
     background-color: #2E2F42;
  }
 
- .hero .container {
-   padding-top:188px;
-   padding-bottom:188px;
-}
 
  .hero .container {
-   padding-top: 68px;
-   padding-bottom: 68px;
-   padding-left: 331px;
-   padding-right: 331px;
+   padding-top: 188px;
+   padding-bottom: 188px;
+   padding-left: 472px;
+   padding-right: 472px;
    text-align: center;
  }
 
